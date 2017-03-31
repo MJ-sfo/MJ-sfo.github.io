@@ -54,7 +54,7 @@ console.log("app.js linked.");
 $(document).ready(function(){
 var ht= $("img").height(),
 wd=$("img").width(),
-mult=1.5; //change to the no. of times you want to increase your image
+mult=3; //change to the no. of times you want to increase your image
       //size.
 $("img").on('mouseenter', function(){
 $(this).animate({height: ht*mult,
